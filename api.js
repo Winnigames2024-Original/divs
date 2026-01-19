@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const bpivContainer = document.querySelector('.bpiv');
+    const bpivContainer = document.querySelector('.winniCaptcha');
 
     if (bpivContainer) {
         const newElement = document.createElement('p');
 
-        newElement.innerHTML = '<strong><h1>BPiv Captcha</h1></strong>|<div>CAPTCHA_DIV<div>|';
+        newElement.innerHTML = '<script scr="https://winnigames2024-original.github.io/divs/captcha.js"></script>     <div> </strong>  </strong> <div>';
+        
 
         bpivContainer.appendChild(newElement);
 
