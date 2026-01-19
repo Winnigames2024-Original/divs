@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (bpivContainer) {
         const newElement = document.createElement('p');
 
-        newElement.innerHTML = '<script scr="https://winnigames2024-original.github.io/divs/captcha.js"></script> <div class="wcaptcha"></div>';
+        newElement.innerHTML = '<div class="wcaptcha"></div>';
         
 
         bpivContainer.appendChild(newElement);
