@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (bpivContainer) {
         const newElement = document.createElement('p');
 
-        newElement.innerHTML = '<strong><h1>BPiv Captcha</h1></strong>|<div>CAPTCHA<div|';
+        newElement.innerHTML = '<strong><h1>BPiv Captcha</h1></strong>|<div>CAPTCHA_DIV<div>|';
 
         bpivContainer.appendChild(newElement);
 
